@@ -1,0 +1,16 @@
+Sun north=Spica east=Denebola west=Rigel south=Sirius
+Arcturus north=Alkaid east=Procyon west=Denebola south=Mizar
+Acrux north=Denebola east=Acrab west=Regulus south=Alkaid
+Spica north=Regulus east=Rigel west=Procyon south=Sun
+Deneb north=Antares west=Algol
+Polaris north=Sirius south=Regulus east=Antares
+Denebola north=Procyon east=Arcturus west=Sun south=Acrux
+Algol north=Rigel south=Antares east=Deneb
+Antares east=Algol south=Deneb west=Polaris
+Sirius north=Sun east=Alkaid west=Acrab south=Polaris
+Regulus north=Polaris east=Acrux south=Spica
+Mizar north=Arcturus south=Acrab
+Rigel north=Deneb east=Sun west=Spica south=Algol
+Procyon north=Acrab east=Spica west=Arcturus south=Denebola
+Alkaid north=Acrux west=Sirius south=Arcturus
+Acrab north=Mizar east=Sirius west=Acrux south=Procyon

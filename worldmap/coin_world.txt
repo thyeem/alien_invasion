@@ -1,0 +1,7 @@
+BTC east=ETH south=XRP north=LTC west=EOS
+ETH west=BTC east=LTC north=EOS
+XRP north=BTC east=BCH west=LTC 
+LTC west=ETH north=BCH east=XRP south=BTC
+BCH south=LTC west=XRP east=EOS 
+EOS south=ETH west=BCH east=BTC
+   
