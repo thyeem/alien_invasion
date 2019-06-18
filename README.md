@@ -1,4 +1,4 @@
-# Francis’ answer to the Alien Invasion
+# Francis’ answer to the Alien Invasion Problem
 
 
 
@@ -27,7 +27,7 @@ aliens_spot := {k: v}, where k: "city where aliens are invading"
 					                 		
 ```
 
-I avoided OOP style coding as it can be solved with a simple data structure introduced above.
+I avoided OOP style coding as it can be solved with a simple data structure introduced above.  
 _For more detail, please see the commented code below._
 
 
