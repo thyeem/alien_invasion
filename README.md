@@ -159,7 +159,7 @@ func move_alien_into_city(alien_id int, city string, alien_spot AlienSpot) {
 func wander_randomly(world_map WorldMap, alien_spot AlienSpot) {
     for from_city, intruders := range alien_spot {
         // No wandering when a alien gets trapped
-        if _, ok := world_map[from_city]; !ok { continue }
+        if roads, ok := world_map[from_city]; !ok || len(roads) == 0 { continue }
 
         cities := make([]string, 0, len(world_map[from_city]))
         for _, v := range world_map[from_city] { cities = append(cities, v) }
